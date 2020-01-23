@@ -9,7 +9,9 @@ body {
 a {
   text-decoration: none;
 }
-
+.container {
+  width: ;
+}
 .top-wrapper {
   padding: 400px 0 100px 0;
   background-image: url(img00219.jpg);
@@ -65,9 +67,69 @@ header{
   z-index: 10;
 }
 .header-right{
-
   float: right;
 }
+
+.sent-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+#sent-form, #login-form {
+  width: 100%;
+}
+
+#sent-form h2, #sent-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#sent-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+#sent-form textarea {
+ width: 320px;
+ height: 200px;
+ margin-bottom: 20px;
+ font-size: 12px;
+ padding: 12px 12px;
+ border: 1px solid #d0d5d8;
+ border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
 .header-left h1{
 
   padding: 0 25px;
@@ -85,7 +147,7 @@ header{
   line-height: 50px;
   color: white;
   padding:0px 20px;
-  width: 170px;
+  width: 160px;
   text-align: center;
 }
 
@@ -108,4 +170,3 @@ h2{
 footer{
   color:#b3aeb5;
 }
-
