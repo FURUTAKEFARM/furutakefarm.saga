@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <title>FURUTAKEFARM</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+
+  </script>
   </head>
   <body>
     <header>
@@ -11,7 +15,7 @@
     <div class="container">
       <div class="header-right">
         <a href="#"class="btn buy">ステーキを贈る</a>
-        <a href="#"class="btn sent">お問い合わせ</a>
+        <a href="#"class="btn ask" id="sent">お問い合わせ</a>
       </div>
       <div class="header-left">
         <h1>ふるたけ牧場　黒毛和牛</h1>
@@ -20,6 +24,22 @@
     </div>
 
     </header>
+    <div class="sent-modal-wrapper" id="sent-modal">
+   <div class="modal">
+     <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+     <div id="sent-form">
+       <h2>問い合わせ内容</h2>
+       <form action="#">
+         <input class="form-control" type="text" placeholder="メールアドレス">
+         <textarea class="form-control" type="content" placeholder="お問い合わせ内容">
+        </textarea>
+         <div id="submit-btn">送信</div>
+       </form>
+     </div>
+   </div>
+ </div>
     <div class="top-wrapper">
 
       <div class="container">
@@ -69,5 +89,8 @@
         <p>プライバシーポリシー</p>
       </div>
     </footer>
+    <script src="script.js">
+
+</script>
   </body>
 </html>
