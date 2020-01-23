@@ -48,8 +48,12 @@ li {
   border-radius: 200px;
   padding-top: 70px;
 }
+
+h1{
+ color:red;
+}
+
 .top-wrapper h1{
-color:red;
 font-family: impact;
 font-weight: 800px;
 font-size: 70px;
@@ -89,8 +93,6 @@ header{
   text-align: center;
 }
 
-h1{
-  color: red;
 }
 
 h2{
