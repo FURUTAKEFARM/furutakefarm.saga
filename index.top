@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FURUTAKEFARM</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+
+  </script>
+  </head>
+  <body>
+    <header>
+
+    <div class="container">
+      <div class="header-right">
+        <a href="#"class="btn buy">ステーキを贈る</a>
+        <a href="https://docs.google.com/forms/d/1CMJBGjfZ_YsWIu0hEV8dDs9DxEgGmnyaQ6eQAKSA2J8/edit"class="btn ask" id="sent">お問い合わせ</a>
+      </div>
+      <div class="header-left">
+        <h1>ふるたけ牧場　黒毛和牛</h1>
+      </div>
+
+    </div>
+
+    </header>
+    <div class="sent-modal-wrapper" id="sent-modal">
+   <div class="modal">
+     <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+
+     </div>
+   </div>
+    <div class="top-wrapper">
+
+      <div class="container">
+        <ul class="beef">
+        <li>日本一の牧場がお届けする</li>
+        </ul>
+        <ul class="sagaimari">
+        <li>最高品質の和牛ステーキ</li>
+       </ul>
+        <p>お世話になったあの人に</p>
+        <p>日頃の感謝を込めて最高級のステーキを</p>
+        <a href="#"class="btn gift">購入はこちら</a>
+        <h1>送料無料</h1>
+
+      </div>
+    </div>
+  <div class="lesson-wrapper">
+   <div class="container">
+     <div class="heading">
+       <h1>ふるたけ牧場　ステーキ（2枚 400g）10,000円</h1>
+       <h2>ご家庭用も承ります</h2>
+
+     </div>
+   </div>
+ </div>
+      <div class="lessons">
+
+        <div class="lesson">
+          <div class="lesson-icon">
+          </div>
+
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+
+        </div>
+
+      </div>
+    </div>
+    <footer>
+      <div class="last">
+        <p>ふるたけ牧場について</p>
+        <h3>会社名　ふるたけ牧場</h3>
+        <h3>代表取締役　古竹隆幸</h3>
+        <h3>〒848-0142</h4>
+        <h3>佐賀県伊万里市黒川町立目327－2</h4>
+        <h3>資本金　3千万</h3>
+        <h3>設立　2018年5月22日</h3>
+        <h3>事業内容　黒毛和牛の肥育、販売</h3>
+        <p>特定商取引に関する法律に基づく表記</p>
+        <p>ご利用ガイド</p>
+        <p>プライバシーポリシー</p>
+      </div>
+    </footer>
+    <script src="script.js">
+
+</script>
+  </body>
+</html>
