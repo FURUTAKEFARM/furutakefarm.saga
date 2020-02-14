@@ -1,6 +1,22 @@
 *{
   box-sizing:border-box;
 }
+
+/*↓home*/
+.top {
+  padding-left: 130px;
+}
+.catch {
+  position: absolute;
+  top: 280px;
+  left: 34%;
+  text-align: center;
+  color:white;
+  font-family: serif;
+  font-weight: 400px;
+  font-size: 80px;
+}
+/* ↓トップ */
 body {
   margin: 0 auto;
   font-family: "Hiragino Kaku Gothic ProN";
@@ -10,7 +26,7 @@ a {
   text-decoration: none;
 }
 .container {
-  width: ;
+
 }
 .top-wrapper {
   padding: 400px 0 100px 0;
@@ -70,6 +86,16 @@ header{
   float: right;
 }
 
+.sent-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
 
 
 .header-left h1{
@@ -82,7 +108,7 @@ header{
    background-color: rgba(255, 255, 255, 0.5);
 }
 
-.btn{
+.buy {
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
   display:inline-block;
@@ -91,6 +117,29 @@ header{
   padding:0px 20px;
   width: 160px;
   text-align: center;
+}
+.ask {
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  display:inline-block;
+  line-height: 50px;
+  color: white;
+  padding:0px 20px;
+  width: 160px;
+  text-align: center;
+}
+.gift {
+  background-color: rgba(0, 0, 0, 1);
+  transition: all 0.2s;
+  display:inline-block;
+  line-height: 50px;
+  color: white;
+  padding:0px 20px;
+  width: 160px;
+  text-align: center;
+}
+.gift:hover {
+  background-color: rgba(51, 0, 0, 0.9);
 }
 
 
@@ -112,3 +161,9 @@ h2{
 footer{
   color:#b3aeb5;
 }
+
+.last{
+  color:white;
+  background-color: rgba(51, 0, 0, 0.5);
+}
+
