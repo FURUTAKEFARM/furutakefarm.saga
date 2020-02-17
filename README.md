@@ -1,1 +1,0 @@
-# furutakefarm.saga.jp
